@@ -37,7 +37,6 @@ displayWeather: function (data) {
   search: function () {
     this.fetchWeather(document.querySelector(".search-box").value);
   },
-};
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
